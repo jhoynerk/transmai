@@ -44,3 +44,42 @@ body{
   background-color: $grey;
   height: 1px;
 }
+.panel-list{
+  margin-bottom: 10px;
+}
+
+@media (max-width: $screen-xs-max) {
+  .panel-list{
+    max-height: 330px;
+    img{
+      text-align: center;
+      width: 100px;
+      height: 100px;
+    }
+    p {
+      height: 200px;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+   .panel-list{
+    max-height: 470px;
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .panel-list{
+    max-height: 500px;
+    p {
+      height: 300px;
+    }
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .panel-list{
+    max-height: 510px;
+    margin-bottom: 20px;
+  }
+}

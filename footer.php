@@ -13,7 +13,7 @@
       <div class="col-lg-4 col-xs-4 col-sm-3 col-md-3 panel-right">
         <div class="row">
           <div class="col-lg-12">
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills pull-right">
               <li><a href="">POLITICA DE PRIVACIDADE</a></li>
               <li><a href="">SITEMAP</a></li>
               <li><a href="">FALE CONOSCO</a></li>
