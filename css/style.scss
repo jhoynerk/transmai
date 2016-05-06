@@ -1,0 +1,53 @@
+@import "bootstrap";
+@import "base/variables";
+@import "base/nav";
+
+.box {
+  padding:20px;
+  background-color:blue;
+}
+
+@font-face {
+  font-family: 'Lane Narrow';
+  src: url("../fonts/LANE-UPPER.TTF") format("truetype");
+}
+
+body{
+  font-family: 'Lane Narrow';
+}
+
+.container-carousel {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -20px;
+  position: relative;
+  display: inline-block;
+}
+
+.article-img{
+  width: 100%;
+}
+
+.article-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.section-main{
+  padding-top: 15px;
+}
+
+.divide{
+  background-color: $grey;
+  height: 1px;
+}
+
+.footer-style{
+  margin-top: 20px;
+  background-color: $grey-light;
+  border-top: 1px solid $grey;
+}
+
+

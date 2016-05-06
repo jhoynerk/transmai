@@ -1,0 +1,18 @@
+.navbar{
+  z-index: 9999;
+}
+
+.nav-icon{
+  margin-top: 0;
+  padding-top: 0;
+  img {
+    max-width: 140px;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .nav-icon > img {
+    max-width: 220px;
+  }
+}
