@@ -11,6 +11,27 @@
   }
 }
 
+.navbar-default .navbar-nav > li {
+  p {
+    padding-top: 16px;
+  }
+  a {
+    color: $brown-light;
+  }
+  .field-phone, .field-phone:hover{
+    background-color: $brown;
+    color: white;
+    word-spacing: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+  }
+}
+
 @media (min-width: $screen-sm-min) {
   .nav-icon > img {
     max-width: 220px;

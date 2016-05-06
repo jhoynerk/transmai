@@ -29,9 +29,13 @@
           <a class="navbar-brand nav-icon" href="#"><img class= "img-responsive" src= "images/icon_background.png"></a>
         </div>
         <div id="" class=" navbar-collapse ">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Tel.: (11) 2335-1000 / 2334-9910</a></li>
-            <li><a href="#">EN / PT / ES</a></li>
+          <ul class="nav navbar-nav navbar-right hidden-xs">
+            <li><a class="field-phone" href="tel:11-23335-1000">Tel.: (11) 2335-1000 / 2334-9910</a></li>
+            <li><a href="#">EN</a></li>
+            <li><p>/</p></li>
+            <li><a href="#">PT</a></li>
+            <li><p>/</p></li>
+            <li><a href="#">ES</a></li>
           </ul>
         </div><!--/.nav-collapse -->
 

@@ -5819,6 +5819,22 @@ button.close {
     max-width: 140px;
     z-index: 9999; }
 
+.navbar-default .navbar-nav > li p {
+  padding-top: 16px; }
+.navbar-default .navbar-nav > li a {
+  color: #7a725d; }
+.navbar-default .navbar-nav > li .field-phone, .navbar-default .navbar-nav > li .field-phone:hover {
+  background-color: #7f463a;
+  color: white;
+  word-spacing: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 1.1em; }
+
 @media (min-width: 768px) {
   .nav-icon > img {
     max-width: 220px; } }
@@ -5828,7 +5844,7 @@ button.close {
 
 @font-face {
   font-family: 'Lane Narrow';
-  src: url("../fonts/LANE-UPPER.TTF") format("truetype"); }
+  src: url("../fonts/MYRIADWEBPRO.TTF") format("truetype"); }
 body {
   font-family: 'Lane Narrow'; }
 
