@@ -5838,9 +5838,27 @@ button.close {
 @media (min-width: 768px) {
   .nav-icon > img {
     max-width: 220px; } }
-.box {
-  padding: 20px;
-  background-color: blue; }
+.footer-style {
+  margin-top: 20px;
+  background-color: #f2f3f4;
+  border-top: 1px solid #b3b6b7;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .footer-style .panel-center h4 {
+    font-size: 1.4em; }
+  .footer-style .panel-center p {
+    padding: 0 0 0 0;
+    margin: 5px 0 5px 0;
+    font-size: 0.8em; }
+  .footer-style .panel-center .copy-right {
+    padding-top: 10px; }
+  .footer-style .panel-right .nav > li, .footer-style .panel-right .nav-pills > li {
+    font-size: 0.8em;
+    padding-bottom: 10px; }
+  .footer-style .panel-right .nav > li > a, .footer-style .panel-right .nav-pills > li > a {
+    color: #4f4f4f; }
+  .footer-style .panel-right .nav > li > a:hover, .footer-style .panel-right .nav-pills > li > a:hover {
+    background-color: none; }
 
 @font-face {
   font-family: 'Lane Narrow';
@@ -5870,10 +5888,5 @@ body {
 .divide {
   background-color: #b3b6b7;
   height: 1px; }
-
-.footer-style {
-  margin-top: 20px;
-  background-color: #f2f3f4;
-  border-top: 1px solid #b3b6b7; }
 
 /*# sourceMappingURL=style.css.map */

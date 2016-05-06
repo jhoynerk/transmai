@@ -1,11 +1,7 @@
 @import "bootstrap";
 @import "base/variables";
 @import "base/nav";
-
-.box {
-  padding:20px;
-  background-color:blue;
-}
+@import "base/footer";
 
 @font-face {
   font-family: 'Lane Narrow';
@@ -43,11 +39,3 @@ body{
   background-color: $grey;
   height: 1px;
 }
-
-.footer-style{
-  margin-top: 20px;
-  background-color: $grey-light;
-  border-top: 1px solid $grey;
-}
-
-
