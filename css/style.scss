@@ -20,6 +20,11 @@ body{
   margin-top: -20px;
   position: relative;
   display: inline-block;
+  width: 100%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  width: 100%;
 }
 
 .article-img{
@@ -63,7 +68,7 @@ body{
 }
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-   .panel-list{
+  .panel-list{
     max-height: 470px;
   }
 }
